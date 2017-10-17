@@ -7,7 +7,7 @@ public class Exceptions {
         EjemploExcepcion e = new EjemploExcepcion();
         try{
             e.mA();
-        }catch (IllegalArgumentException e) {
+        }catch (JuanException g) {
             System.out.println("Error");
         }
     }
